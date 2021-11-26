@@ -1,0 +1,68 @@
+.container1
+{
+    width: 100%;
+    padding: 50px 0 50px 0;
+position:relative;
+background-color: aqua;
+
+}
+
+i
+{
+font-size: 50px;
+}
+.img
+{width: 32%;
+height: 300px;
+margin-bottom: 10px;
+position: relative;}
+.img:hover .layer
+{
+    opacity: 1;
+
+}
+
+ .layer 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background-color: rgba( 26, 188, 156,0.7);
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 300px;
+} 
+#newlayer
+{
+position: relative;
+top:-750px;
+width: 65%;
+height: 600px;
+align-items: center;
+position: relative;
+
+}
+#newlayer .layer1
+{
+    display: flex;
+    justify-content: center;
+
+}
+ 
+.close
+{
+    position: absolute;
+    top:20px;
+    right: 50px;
+}
+
+img:hover ~.layer 
+
+{
+opacity: 1;
+}

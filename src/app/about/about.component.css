@@ -1,0 +1,41 @@
+.line
+{
+    width:9%;
+    height: 4px;
+    background-color:white;
+    border-radius: 3px;
+
+    
+}
+.container-fluid
+{
+    background-color: #1abc9c ;
+    height: 600px;
+}
+.container-fluid .layer2
+{
+    height: 700px;
+}
+h1
+{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.paragraphs
+{
+    height: 200px;
+
+}
+p
+{font-size: 18px;
+padding-top: 10px;
+}
+i
+{color: white;
+font-size: 30px;
+position: relative;
+bottom: 15px;
+padding-left: 10px;
+padding-right: 10px;
+
+}
